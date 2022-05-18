@@ -14,8 +14,8 @@ The fonts used are Open Sans and Oswald, and can be included by adding the follo
   rel="stylesheet"
 />
 ```
-<!-- what is this??>
-The link to the adoption application form should go to `#`, which is a way to link to the same page as you are currently on. <-->
+
+The link to the adoption application form should go to `#`, which is a way to link to the same page as you are currently on.
 
 ## Page sections
 

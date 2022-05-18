@@ -1,0 +1,42 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.trait {
+    background-color: #89DEEF;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+header {
+    background-color: #004175;
+    color: white;
+    border-bottom: 5px solid #89DEEF;
+    margin: 0px;
+    padding: 10px;
+}
+
+img {
+    width: 300px;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-body {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dog {
+    width: 300px;
+    margin: 2px;
+}

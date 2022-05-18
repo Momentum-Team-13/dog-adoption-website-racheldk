@@ -1,9 +1,9 @@
 fonts: Open Sans and Oswald 
     [X] add link to html
-?? [ ] figure out what the link thing is 
+?? [X] figure out what the link thing is 
 
 ### header section 
-    [ ] background color #004175
+    [ X] background color #004175
     [ ] text color
     [ ] padding
     [ ] bottom border 
@@ -11,7 +11,7 @@ fonts: Open Sans and Oswald
 
 main section with dogs 
     [ ] dog name, pic, traits showing up on the page 
-        [ ] Beans
+        [X] Beans
         [ ] Zelda
         [ ] baby
         [ ] tom-tom
