@@ -1,0 +1,33 @@
+fonts: Open Sans and Oswald 
+    [X] add link to html
+?? [ ] figure out what the link thing is 
+
+### header section 
+    [ ] background color #004175
+    [ ] text color
+    [ ] padding
+    [ ] bottom border 
+    [ ] border color #89DEEF
+
+main section with dogs 
+    [ ] dog name, pic, traits showing up on the page 
+        [ ] Beans
+        [ ] Zelda
+        [ ] baby
+        [ ] tom-tom
+        [ ] marco 
+        [ ] shackleton
+        [ ] midge
+        [ ] ladybird
+        [ ] mina
+    [ ] traits showing up next to each other - see notes in readme
+    [ ] make dogs (With images and traits) show up next to each other instead of just vertical (no specific number needed in a row)
+
+footer section 
+    [ ] get the words on the page
+    [ ] words into 3 blocks next to each other (maybe flex box. if flexbox property 'flexbox 1 1 auto')
+    [ ] give boxes some height
+    [ ] center text horizontally
+    [ ] center vertically (There's multiple ways to do this, including nesting flexbox containers. A simple way involves setting `line-height` equal to the height of the containing element.)
+    [ ] background color #A6A9F0
+    [ ] bluish filter on images (The `background` property will make this work, and you [can read how to add a color overly to an image at CSS-Tricks](https://css-tricks.com/tinted-images-multiple-backgrounds/).)
