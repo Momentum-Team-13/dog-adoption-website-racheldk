@@ -48,11 +48,6 @@ img {
     border: 2px solid white;
 }
 
-/* .footer {
-    display: flex;
-    flex-direction: row;
-} */
-
 ul {
     list-style: none;
     display: flex;
@@ -63,22 +58,25 @@ ul {
     height: 300px;
 }
 
-.fpic {
+/* .fpic {
    object-fit: contain;
 
-}
+} */
 
 #donate {
     background-image: url(starter_files/images/donate.jpg);
     flex: 1 1 auto;
+    background-size: cover;
 }
 
 #volunteer {
     background-image: url(starter_files/images/volunteer.jpg);
     flex: 1 1 auto;
+    background-size: cover;
 }
 
 #location {
     background-image: url(starter_files/images/location.png);
     flex: 1 1 auto;
+    background-size: cover;
 }
