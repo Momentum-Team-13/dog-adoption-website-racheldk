@@ -53,30 +53,34 @@ ul {
     display: flex;
     flex-direction: row;
 }
+.footer {
+    background: linear-gradient (#A6A9F00, #A6A9F00)
+}
+
 
 .footer ul {
     height: 300px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: baseline;
+    line-height: 300px;
 }
 
-/* .fpic {
-   object-fit: contain;
-
-} */
-
 #donate {
-    background-image: url(starter_files/images/donate.jpg);
+    background: linear-gradient(#a6a9f099, #A6A9F099), url(starter_files/images/donate.jpg);
     flex: 1 1 auto;
     background-size: cover;
 }
 
 #volunteer {
-    background-image: url(starter_files/images/volunteer.jpg);
+    background: linear-gradient(#a6a9f099, #A6A9F099), url(starter_files/images/volunteer.jpg);
     flex: 1 1 auto;
     background-size: cover;
 }
 
 #location {
-    background-image: url(starter_files/images/location.png);
+    background:linear-gradient(#a6a9f099, #A6A9F099), url(starter_files/images/location.png);
     flex: 1 1 auto;
     background-size: cover;
 }
