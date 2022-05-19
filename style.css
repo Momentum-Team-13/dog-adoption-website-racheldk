@@ -33,7 +33,7 @@ img {
     width: 300px;
 }
 
-ul {
+.list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -46,4 +46,8 @@ ul {
     border-radius: 10px;
     font-size: 10px;
     border: 2px solid white;
+}
+
+#footer {
+    list-style: none;
 }
