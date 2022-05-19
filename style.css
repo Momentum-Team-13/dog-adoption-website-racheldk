@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: "Open Sans";
 }
 
 header {
@@ -7,26 +8,35 @@ header {
     color: white;
     border-bottom: 5px solid #89DEEF;
     margin: 0px;
-    padding: 10px;
+    padding: 30px;
+    font-size: xx-large;
 }
 
 .heading {
     margin: 20px 0px 0px 30px;
 }
 
+.title {
+font-size: x-large;
+font-weight: bold;
+}
+
 .main-body {
-    margin: 8px 30px 30px 30px;
+    margin: 8px 30px 10px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start space-between;
     align-items:flex-start;
 }
 
+.text {
+    font-weight: normal;
+}
+
 .dog {
     width: 300px;
-    margin: 2px;
+    margin: 10px 10px 35px 10px;
     justify-items: center
-
 }
 
 img {
@@ -37,6 +47,7 @@ img {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .trait {
@@ -44,19 +55,23 @@ img {
     color: black;
     padding: 5px;
     border-radius: 10px;
-    font-size: 10px;
+    font-size: 11px;
     border: 2px solid white;
+    justify-content: flex-start;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    padding: 0;
+    margin: 0;
 }
-.footer {
-    background: linear-gradient (#A6A9F00, #A6A9F00)
-}
-
 
 .footer ul {
     height: 300px;
@@ -71,16 +86,25 @@ ul {
     background: linear-gradient(#a6a9f099, #A6A9F099), url(starter_files/images/donate.jpg);
     flex: 1 1 auto;
     background-size: cover;
+    background-position: center;
 }
 
 #volunteer {
     background: linear-gradient(#a6a9f099, #A6A9F099), url(starter_files/images/volunteer.jpg);
     flex: 1 1 auto;
     background-size: cover;
+    background-position: center;
+
 }
 
 #location {
     background:linear-gradient(#a6a9f099, #A6A9F099), url(starter_files/images/location.png);
     flex: 1 1 auto;
     background-size: cover;
+    background-position: center;
+
+}
+
+.dog p {
+    font-family: "Oswald";
 }
