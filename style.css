@@ -1,17 +1,5 @@
-.list {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    flex-wrap: wrap;
-    
-}
-
-.trait {
-    background-color: #89DEEF;
-    color: black;
-    padding: 5px;
-    border-radius: 10px;
-    font-size: 10px;
+body {
+    margin: 0px;
 }
 
 header {
@@ -22,22 +10,42 @@ header {
     padding: 10px;
 }
 
-img {
-    width: 300px;
-}
-
-body {
-    margin: 0px;
+.heading {
+    margin: 20px 0px 0px 30px;
 }
 
 .main-body {
-    margin: 30px;
+    margin: 8px 30px 30px 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: left space-between;
+    align-items:flex-start;
 }
 
 .dog {
     width: 300px;
     margin: 2px;
+    justify-items: center
+
+}
+
+img {
+    width: 300px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.trait {
+    background-color: #89DEEF;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 2px solid white;
 }
