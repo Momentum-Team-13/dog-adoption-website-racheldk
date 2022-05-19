@@ -18,7 +18,7 @@ header {
     margin: 8px 30px 30px 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left space-between;
+    justify-content: flex-start space-between;
     align-items:flex-start;
 }
 
@@ -33,12 +33,10 @@ img {
     width: 300px;
 }
 
-.list {
+ul {
     list-style: none;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    
 }
 
 .trait {
